@@ -1,0 +1,26 @@
+/* Created by Alec Barker */
+
+@font-face{
+	font-family: Nasalization;
+	src: url(ProjectDemo_files/fonts/nasalization-rg.ttf);
+}
+
+@font-face{
+	font-family: BitWise;
+	src: url(ProjectDemo_files/fonts/bitwise.ttf);
+}
+
+#invisibleText{
+	font-family: Nasalization;
+	color: #1a1a1a;
+	font-size: 50%;
+}
+
+body{
+	background-color: #1a1a1a;
+	color: white;
+}
+
+.notVisibile{
+	display: none;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;
+			charset=windows-1252">
+		<title>Into the Void</title>
+		
+		<!-- 	Alec Barker
+				5/1/18
+				CSW 223
+				Commander Tom has to launch from Earth and successfully land on Mars, doing challenges
+				along the way.
+		-->
+		
+		<!-- 
+
+		Jim Klayder --- spring 2018
+		demo adventure story for CSW 223
+
+		project descriptions are on:
+		http://raider.mountunion.edu/csw/CSW223/Spring2018/schedule.html
+
+	the setTextStyle function in 'MyDrawingLibrary.js' is very helpful and should be expanded 
+
+		-->
+		<script src="ProjectDemo_files/MyStory.js"></script>
+		<script src="ProjectDemo_files/library_2/MyDrawingLibrary.js"></script>
+		<script src="ProjectDemo_files/library_2/PageBasic.js"></script>
+		<script src="ProjectDemo_files/library_2/PageOption.js"></script>
+		<script src="ProjectDemo_files/library_2/Animator13.js"></script>
+		<script src="ProjectDemo_files/library_2/MyClickArea.js"></script>
+		<script src="ProjectDemo_files/library_2/MainScript.js"></script>
+		<script src="ProjectDemo_files/_js_storyInit.js"></script>
+		
+		<link rel="stylesheet" href="Project.css">
+		<!--
+
+		end of the library functions PageMathProblems
+	pageDoHomework
+
+		-->
+		<script src="ProjectDemo_files/MyBackground.js"></script>
+		<script src="ProjectDemo_files/MyBackgroundForCleanRoom.js"></script>
+		<script src="ProjectDemo_files/MyBlocker.js"></script>
+		<script src="ProjectDemo_files/PagePlayZapper.js"></script>
+		<script src="ProjectDemo_files/Zapper.js"></script>
+		<script src="ProjectDemo_files/ZapperAlien.js"></script>
+		<script src="ProjectDemo_files/ZapperMissle.js"></script>
+		<script src="ProjectDemo_files/PageQuiz1.js"></script>
+		<script src="ProjectDemo_files/QuizQuestion.js"></script>
+		<script src="ProjectDemo_files/MyStringInput.js"></script>
+		<script src="ProjectDemo_files/MyStartButton.js"></script>
+		<script src="ProjectDemo_files/PageCleanRoom.js"></script>
+		<script src="ProjectDemo_files/PageMathProblems.js"></script>
+		<script src="ProjectDemo_files/MathAddBox.js"></script>
+		<script src="ProjectDemo_files/MyNumber.js"></script>
+		<script src="ProjectDemo_files/Turkey.js"></script>
+		<script src="ProjectDemo_files/MyTitle.js"></script>
+		<script src="ProjectDemo_files/MyMovingTitle.js"></script>
+		<script src="ProjectDemo_files/MyMovingOrangeTitle.js"></script>
+		<script src="ProjectDemo_files/MyScrollingText.js"></script>
+		<script src="ProjectDemo_files/Ball.js"></script>
+		<script src="ProjectDemo_files/Basket.js"></script>
+		<script src="ProjectDemo_files/MySingleLine.js"></script>
+		<script src="ProjectDemo_files/MyParagraph.js"></script>
+		<script src="ProjectDemo_files/Goal_1.js"></script>
+		<script src="ProjectDemo_files/MyImage.js"></script>
+		<script src="ProjectDemo_files/PageSimpleEnd.js"></script>
+		<script src="ProjectDemo_files/MyTitleRotate.js"></script>
+		<script src="ProjectDemo_files/PageDropObjectInBasket.js"></script>
+		<script src="ProjectDemo_files/Ship.js"></script>
+		<script src="ProjectDemo_files/GasCan.js"></script>
+		<script src="ProjectDemo_files/MySplashPage.js"></script>
+		<script src="ProjectDemo_files/GroundBackground.js"></script>
+		<script src="ProjectDemo_files/PageMoveGasCans.js"></script>
+		<script src="ProjectDemo_files/MyGroundBackground.js"></script>
+		<script src="ProjectDemo_files/CockpitView.js"></script>
+		<script src="ProjectDemo_files/PageComputerInput.js"></script>
+		<script src="ProjectDemo_files/PageCoordinates.js"></script>
+		<script src="ProjectDemo_files/MyComputerParagraph.js"></script>
+		<script src="ProjectDemo_files/CoordinateInput.js"></script>
+		<script src="ProjectDemo_files/CoordinateList.js"></script>
+		<script src="ProjectDemo_files/MyDarkBGParagraph.js"></script>
+		<script src="ProjectDemo_files/MySpaceBackground.js"></script>
+		<script src="ProjectDemo_files/Bedroom.js"></script>
+		<script src="ProjectDemo_files/ShipRight.js"></script>
+		<script src="ProjectDemo_files/DrawThisObject.js"></script>
+		<script src="ProjectDemo_files/PageHitButtons.js"></script>
+		<script src="ProjectDemo_files/Button.js"></script>
+		
+		<!-- <script src="ProjectDemo_files/LaunchingShip.js"></script>
+		<!--
+
+		the 'js_storyInit()' function is in the js_storyInit.js file 
+
+		pageCleanRoom
+		pageTitle
+		pagePlayZapper
+		pageDoHomework
+		pageReadZapperInstructions
+
+		pageCleanRoom
+
+		pageDoHomework
+
+		-->
+	</head>
+	
+<!-- Set start page here -->	
+	
+	<body onload="js_storyInit('testStoryBasicPageNumbers','splashPage');">
+		<!--
+		
+		
+		MAIN RIGHT HERE
+		<body onload="js_storyInit('testStoryBasicPageNumbers','splashPage');">
+		
+		
+		
+		<body onload="js_storyInit('zapperStory','pageTitle');">
+
+		<body onload="js_storyInit('testStoryBasicPageNumbers','pageOne');">
+
+
+		<body onload="js_storyInit('testZero','pageOne');">
+
+
+		<body onload="js_storyInit('testOne','pageFour');">
+		<body onload="js_storyInit('testOne','three');">
+
+
+
+
+		<body onload="js_storyInit('orangeStory','start');">
+		<body onload="js_storyInit('orangeStory','pageOrangeTree');">
+		<body onload="js_storyInit('orangeStory','pageOrangeTree2');">
+
+
+		<body onload="js_storyInit('zapperStory','pageTitle');">
+		<body onload="js_storyInit('zapperStory','pageCleanRoom');">
+
+
+
+
+		when you are finished debugging, add the following style
+		inside the table tag
+
+		style="display: none;"
+		
+		PUT THIS AFTER THE WORD "TABLE" TO REMOVE THE TABLE AT THE TOP
+		class="notVisibile"
+-->
+		<center>
+			<table class="notVisibile" cellspacing="2" cellpadding="2" border="1" >
+				<tbody>
+					<tr>
+						<td width="200" valign="top" align="center">currentPageName<br>
+						</td>
+						<td width="200" valign="top" align="center">next pages<br>
+						</td>
+						<td id="theText" width="200" valign="top" align="center">--
+							mouse info --<br>
+						</td>
+						<td width="200" valign="top">other<br>
+						</td>
+					</tr>
+					<tr>
+						<td id="currentPageName" valign="top" align="center"><br>
+						</td>
+						<td id="nextPage_0" valign="top" align="center"><br>
+						</td>
+						<td id="mouseMoveInfo" valign="top">mouseMove _______</td>
+						<td id="extraInfo1" valign="top">extraInfo1 _______ </td>
+					</tr>
+					<tr>
+						<td valign="top" align="center"><br>
+						</td>
+						<td id="nextPage_1" valign="top" align="center"> <br>
+						</td>
+						<td id="mouseDownInfo" valign="top"> mouseDown _______</td>
+						<td id="extraInfo2" valign="top">extraInfo2 _______ </td>
+					</tr>
+					<tr>
+						<td valign="top" align="center"><br>
+						</td>
+						<td valign="top" align="center"><br>
+						</td>
+						<td id="mouseUpInfo" valign="top"> mouseUp _______</td>
+						<td id="extraInfo3" valign="top">extraInfo3 _______</td>
+					</tr>
+					<tr>
+						<td valign="top" align="center"><br>
+						</td>
+						<td valign="top" align="center"><br>
+						</td>
+						<td id="mouseDragInfo" valign="top">mouseDrag _______</td>
+						<td id="extraInfo4" valign="top">extraInfo4 _______</td>
+					</tr>
+				</tbody>
+			</table>
+			<p id="extraInfo5" style="display: none;">extraInfo5<br>
+			</p>
+			<p><br>
+			</p>
+			<table width="500" cellspacing="2" cellpadding="2" border="2"
+				height="300">
+				<tbody>
+					<tr>
+						<td valign="top"> <canvas tabindex="1" id="myCanvas"
+							width="500" height="300"></canvas> <br>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<table id="optionTable" cellspacing="2" cellpadding="2" border="5"
+				height="240">
+				<tbody>
+					<tr>
+						<td width="400" valign="top"><button type="button"
+							id="option0button" onclick="showPage('option0');">option0</button>
+							<p id="option0text">option0text</p>
+							<p id="option0nextPage" style="display: none">option0nextPage</p>
+						</td>
+						<td width="400" valign="top"><button type="button"
+							id="option1button" onclick="showPage('option1');">option1</button>
+							<p id="option1text">option1text</p>
+							<p id="option1nextPage" style="display: none">option1nextPage</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!--spaceBG: https://cdn.eso.org/images/screen/b01.jpg -->
+			<img id="spaceBG" style="display: none;"
+				src="ProjectDemo_files/images/spaceBG.jpg" alt="spaceBG" width="1280"
+				height="814">
+			<!-- mars: http://blog.kilafun.com/wp-content/uploads/sites/2/2015/07/planet-facts-for-kids-mars-e1437533345244.png -->
+			<img id="mars" style="display: none;"
+				src="ProjectDemo_files/images/mars.png" alt="mars" width="256"
+				height="256">
+			<!-- tempShip: http://4.bp.blogspot.com/-etyNTo8hpIE/Uf8BfJYeymI/AAAAAAAAA5Q/9emQpKVj1fo/s1600/fighter-01.png -->
+			<img id="tempShip" style="display: none;"
+				src="ProjectDemo_files/images/tempShip.png" alt="tempShip" width="720"
+				height="713">
+			<!-- tempShipRight: http://4.bp.blogspot.com/-etyNTo8hpIE/Uf8BfJYeymI/AAAAAAAAA5Q/9emQpKVj1fo/s1600/fighter-01.png -->
+			<img id="tempShipRight" style="display: none;"
+				src="ProjectDemo_files/images/tempShipRight.png" alt="tempShipRight" width="713"
+				height="720">
+			<!-- flames: https://i.pinimg.com/originals/c3/45/e2/c345e2eb1c7429927aee262bdb875fc3.png -->	
+			<img id="flames" style="display: none;"
+				src="ProjectDemo_files/images/flames.png" alt="flames" width="516"
+				height="600">
+			<!-- gasCan: https://d1u5p3l4wpay3k.cloudfront.net/battlegrounds_gamepedia_en/d/dc/Icon_jerrycan.png?version=3d3004009b81880cca1cdf0c65cd149f -->
+			<img id="gasCan" style="display: none;"
+				src="ProjectDemo_files/images/gasCan.png" alt="gasCan" width="240"
+				height="240">
+			<!-- cockpit: https://orig00.deviantart.net/cf70/f/2014/202/b/e/cockpit_by_justinhaynes89-d7rp2yv.png -->
+			<img id="cockpit" style="display: none;"
+				src="ProjectDemo_files/images/cockpit.png" alt="cockpit" width="640"
+				height="480">
+			<!-- note: https://images.vexels.com/media/users/3/146695/isolated/preview/c31113aebbbf9c844d1caa832ad42cae-pinned-lined-sticky-note-by-vexels.png -->	
+			<img id="note" style="display: none;"
+				src="ProjectDemo_files/images/note.png" alt="note" width="512"
+				height="512">
+			<!-- screen: http://ftp.grandstream.com/marketing_sync/general/marketing/New%20Folder/GVC3200%20+%20Screens/flat-screen-tv.png -->	
+			<img id="screen" style="display: none;"
+				src="ProjectDemo_files/images/screen.png" alt="screen" width="1201"
+				height="706">
+			<!-- hulaGirl: http://www.kchawaii.com/image/cache/catalog/cut%20outs/40605_m%20copy-228x228.png -->
+			<img id="hulaGirl" style="display: none;"
+				src="ProjectDemo_files/images/hulaGirl.png" alt="hulaGirl" width="228"
+				height="228">
+			<!-- earth: http://www.freepngimg.com/download/earth/3-2-earth-transparent.png -->
+			<img id="earth" style="display: none;"
+				src="ProjectDemo_files/images/earth.png" alt="earth" width="894"
+				height="894">
+			<!-- futureRoom: https://img00.deviantart.net/9d30/i/2009/309/8/f/future_room_by_tebh_stock.png -->
+			<img id="futureRoom" style="display: none;"
+				src="ProjectDemo_files/images/futureRoom.png" alt="futureRoom" width="600"
+				height="362">
+			<!-- cryoBed: https://www.halopedia.org/images/thumb/8/86/HCEA-CryoChamberSide.png/200px-HCEA-CryoChamberSide.png -->
+			<img id="cryoBed" style="display: none;"
+				src="ProjectDemo_files/images/cryoBed.png" alt="cryoBed" width="200"
+				height="217">
+			<!-- shipFlames0: http://4.bp.blogspot.com/-etyNTo8hpIE/Uf8BfJYeymI/AAAAAAAAA5Q/9emQpKVj1fo/s1600/fighter-01.png
+							  http://www.pngmart.com/image/2936 -->
+			<img id="shipFlames0" style="display: none;"
+				src="ProjectDemo_files/images/shipFlames0.png" alt="shipFlames0" width="720"
+				height="850">
+			<!-- shipFlames1: http://4.bp.blogspot.com/-etyNTo8hpIE/Uf8BfJYeymI/AAAAAAAAA5Q/9emQpKVj1fo/s1600/fighter-01.png
+							  http://www.transparentpng.com/details/fire-image-symbol_6813.html -->
+			<img id="shipFlames1" style="display: none;"
+				src="ProjectDemo_files/images/shipFlames1.png" alt="shipFlames1" width="720"
+				height="850">
+			<!-- shipFlames2: http://4.bp.blogspot.com/-etyNTo8hpIE/Uf8BfJYeymI/AAAAAAAAA5Q/9emQpKVj1fo/s1600/fighter-01.png
+							  http://www.stickpng.com/img/nature/fire/cartoon-fire-flames -->
+			<img id="shipFlames2" style="display: none;"
+				src="ProjectDemo_files/images/shipFlames2.png" alt="shipFlames2" width="720"
+				height="850">
+			<!-- shipFlames3: http://4.bp.blogspot.com/-etyNTo8hpIE/Uf8BfJYeymI/AAAAAAAAA5Q/9emQpKVj1fo/s1600/fighter-01.png
+							  http://www.freepngimg.com/thumb/fire_flames/1-2-fire-flames-free-png-image-thumb.png -->
+			<img id="shipFlames3" style="display: none;"
+				src="ProjectDemo_files/images/shipFlames3.png" alt="shipFlames3" width="720"
+				height="850">
+			<!-- moon: http://www.pngmart.com/image/48752 -->
+			<img id="moon" style="display: none;"
+				src="ProjectDemo_files/images/moon.png" alt="moon" width="403"
+				height="403">
+			<!-- astronautIceCream: https://vignette.wikia.nocookie.net/clubpenguin/images/1/18/Ice_Cream_Sandwich_Puffle_Food.png/revision/latest?cb=20130820230845 -->
+			<img id="astronautIceCream" style="display: none;"
+				src="ProjectDemo_files/images/astronautIceCream.png" alt="astronautIceCream" width="434"
+				height="684">
+			<!-- astronaut: http://thegravitybrewing.com/wp-content/uploads/2014/09/astronaut.png -->
+			<img id="astronaut" style="display: none;"
+				src="ProjectDemo_files/images/astronaut.png" alt="astronaut" width="428"
+				height="438">
+			<!-- pills: http://www.pngmart.com/image/33009 -->
+			<img id="pills" style="display: none;"
+				src="ProjectDemo_files/images/pills.png" alt="pills" width="1000"
+				height="750">
+			<!-- asteroids: http://www.pngmart.com/image/51093 -->
+			<img id="asteroids" style="display: none;"
+				src="ProjectDemo_files/images/asteroids.png" alt="asteroids" width="1600"
+				height="2070">
+			<!-- marsSurface: https://nssdc.gsfc.nasa.gov/planetary/image/mera_hills.jpg -->
+			<img id="marsSurface" style="display: none;"
+				src="ProjectDemo_files/images/marsSurface.jpg" alt="marsSurface" width="2667"
+				height="972">
+			<!-- astronautGuitar: https://pngtree.com/freepng/astronaut-astronaut_1211183.html -->
+			<img id="astronautGuitar" style="display: none;"
+				src="ProjectDemo_files/images/astronautWithGuitar.png" alt="astronautGuitar" width="525"
+				height="500">
+			<!-- meteorite: https://mars.nasa.gov/images/mep/mars-makers/block-island-3d-meteorite-cut.png -->
+			<img id="meteorite" style="display: none;"
+				src="ProjectDemo_files/images/meteorite.png" alt="meteorite" width="1740"
+				height="933">
+			<!-- button: https://upload.wikimedia.org/wikipedia/commons/5/5a/Perspective-Button-Stop-icon.png -->
+			<img id="button" style="display: none;"
+				src="ProjectDemo_files/images/button.png" alt="button" width="512"
+				height="512">
+		</center>
+	</body>
+</html>
