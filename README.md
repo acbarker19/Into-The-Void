@@ -1,7 +1,7 @@
 # Into The Void
  A graphics-based text adventure featuring interactive elements.
  
- This was the final project in my third web design course (CSW223: Programming for Interactive Media) at the University of Mount Union.
+ This was the final project in my third web design course (CSW223: Programming for Interactive Media) at the University of Mount Union taught by Dr. James Klayder.
  
  It uses a template and example text adventures supplied by Dr. James Klayder as its basic framework and has been modified by Alec Barker. The story and gameplay sections are created by Alec Barker.
  
